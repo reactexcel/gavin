@@ -1,11 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Service from './components/Services';
+import Used from './components/UsedBy';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="font-bold">hello</h1>
-    </div>
+    <>
+    <Header/>
+    
+    <Used/>
+
+    <Service/>
+
+    <Footer/>
+    </>
   );
 }
 
