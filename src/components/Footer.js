@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div
-        class='card w-100 border border-dark rounded-0'
+        class='card w-100 border border-dark rounded-0 mt-2' 
         style={{ backgroundColor: '	#FF00FF' }}
       >
         <div className='container'>
