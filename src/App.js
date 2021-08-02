@@ -1,22 +1,18 @@
-import './App.css';
-import Header from './components/Header';
-import Service from './components/Services';
-import Used from './components/UsedBy';
-import Footer from './components/Footer';
-
-
-function App() {
+import './App.css'
+import Home from './Pages/Home'
+import Login from './components/Login';
+import {Switch, Route} from 'react-router-dom';
+import Dashboard from './Pages/Dashboard';
+function App () {
   return (
     <>
-    <Header/>
-    
-    <Used/>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/bill" component={Dashboard} />
 
-    <Service/>
-
-    <Footer/>
+    </Switch>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
