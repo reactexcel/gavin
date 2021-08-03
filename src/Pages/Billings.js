@@ -67,87 +67,134 @@ const Billings = () => {
               </div>
             </div>
             <form control='' class='form-group'>
-              <div className='d-flex flex-column w-50 mx-3'>
+              <div className='d-flex flex-column w-70 mx-3'>
                 <label className='text-left'>Billing Information</label>
 
-                <input
-                  type='text'
-                  name='username'
-                  id='username'
-                  placeholder='Username'
-                  className='input_field mb-2'
-                />
-                <label className='text-left'>Billing Email Address</label>
-                <input
-                  type='password'
-                  name='password'
-                  id='password'
-                  placeholder='Password'
-                  className='input_field mb-2'
-                />
-
-                <label for='remember_me'>Payment methods</label>
-                <div>
-                  <button
-                    class='btn btn-success  border border-dark mx-2'
-                    style={{ minWidth: '100px' }}
-                  >
-                    {' '}
+                <div className='d-flex justify-content-between w-100'>
+                  <input
+                    type='text'
+                    name='text'
+                    id='text'
+                    placeholder='00:00:00'
+                    className='input_field mb-2 w-50'
+                  />
+                  <button class='btn btn-success border border-dark  my-auto mx-2 '>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      width='22'
-                      height='22'
+                      width='16'
+                      height='16'
                       fill='currentColor'
-                      class='bi bi-credit-card-2-back'
+                      class='bi bi-save2-fill'
                       viewBox='0 0 16 16'
-                    >
-                      <path d='M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z' />
-                      <path d='M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z' />
-                    </svg>{' '}
-                    Stripe
-                  </button>
-                  <button
-                    class='btn btn-primary  border border-dark  mx-2'
-                    style={{ minWidth: '100px' }}
-                  >
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      width='22'
-                      height='22'
-                      fill='currentColor'
-                      class='bi bi-credit-card-2-back'
-                      viewBox='0 0 16 16'
-                    >
-                      <path d='M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z' />
-                      <path d='M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z' />
+                     >
+                       <path d='M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v6h-2a.5.5 0 0 0-.354.854l2.5 2.5a.5.5 0 0 0 .708 0l2.5-2.5A.5.5 0 0 0 10.5 7.5h-2v-6z' />
                     </svg>
-                    Paypal
-                  </button>
-                  <button
-                    class='btn btn-warning  border border-dark  mx-2 '
-                    style={{ minWidth: '100px' }}
-                  >
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      width='22'
-                      height='22'
-                      fill='currentColor'
-                      class='bi bi-credit-card-2-back'
-                      viewBox='0 0 16 16'
-                    >
-                      <path d='M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z' />
-                      <path d='M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z' />
-                    </svg>
-                    Card
+                    save
                   </button>
                 </div>
+                <label className='text-left'>Billing Email Address</label>
+                <div className='d-flex justify-content-between w-100'>
+                  <input
+                    type='text'
+                    name='text'
+                    id='text'
+                    placeholder='00:00:00'
+                    className='input_field mb-2 w-50'
+                  />
+                  <button class='btn btn-success border border-dark  my-auto mx-2 '>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='16'
+                      height='16'
+                      fill='currentColor'
+                      class='bi bi-save2-fill'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v6h-2a.5.5 0 0 0-.354.854l2.5 2.5a.5.5 0 0 0 .708 0l2.5-2.5A.5.5 0 0 0 10.5 7.5h-2v-6z' />
+                    </svg>
+                    save
+                  </button>
+                </div>
+
+                <label for='remember_me'>Payment methods</label>
+                <div className='d-flex justify-content-between w-100'>
+                  <div>
+                    <button
+                      class='btn btn-success  border border-dark mx-2'
+                      style={{ minWidth: '100px' }}
+                    >
+                      {' '}
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='22'
+                        height='22'
+                        fill='currentColor'
+                        class='bi bi-credit-card-2-back'
+                        viewBox='0 0 16 16'
+                      >
+                        <path d='M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z' />
+                        <path d='M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z' />
+                      </svg>{' '}
+                      Stripe
+                    </button>
+                    <button
+                      class='btn btn-primary  border border-dark  mx-2'
+                      style={{ minWidth: '100px' }}
+                    >
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='22'
+                        height='22'
+                        fill='currentColor'
+                        class='bi bi-credit-card-2-back'
+                        viewBox='0 0 16 16'
+                      >
+                        <path d='M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z' />
+                        <path d='M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z' />
+                      </svg>
+                      Paypal
+                    </button>
+                    <button
+                      class='btn btn-warning  border border-dark  mx-2 '
+                      style={{ minWidth: '100px' }}
+                    >
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='22'
+                        height='22'
+                        fill='currentColor'
+                        class='bi bi-credit-card-2-back'
+                        viewBox='0 0 16 16'
+                      >
+                        <path d='M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z' />
+                        <path d='M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z' />
+                      </svg>
+                      Card
+                    </button>
+                  </div>
+
+                  <button class='btn btn-success border border-dark  my-auto mx-2 '>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='16'
+                      height='16'
+                      fill='currentColor'
+                      class='bi bi-save2-fill'
+                      viewBox='0 0 16 16'
+                    >
+                      <path d='M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v6h-2a.5.5 0 0 0-.354.854l2.5 2.5a.5.5 0 0 0 .708 0l2.5-2.5A.5.5 0 0 0 10.5 7.5h-2v-6z' />
+                    </svg>
+                    save
+                  </button>
+                </div>
+
                 <label className='text-left my-2'>Coupon</label>
                 <input
                   type='password'
                   name='password'
                   id='password'
                   placeholder='Discount voucher'
-                  className='input_field mb-2'
+                  className='input_field mb-2 w-50'
                 />
               </div>
             </form>
@@ -159,4 +206,4 @@ const Billings = () => {
   )
 }
 
-export default Billings
+export default Billings;

@@ -75,7 +75,7 @@ export default function Invoce () {
               </td>
             </tr>
             <tr>
-              <td>Invoice 3 Mar</td>
+              <td>Invoice 3 </td>
               <td> March</td>
               <td> march Invoice link</td>
               <td>
