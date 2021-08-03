@@ -3,7 +3,7 @@ import React from 'react'
 const Service = () => {
   return (
     <>
-      <div class=' w-100 border border-dark rounded-0'>
+      <div class=' w-100 mb-4 rounded-0'>
         <div className='container mb-4'>
           <h4 className=' font-normal mt-4'>Services</h4>
           <div class='d-flex flex-row justify-content-start py-4 px-4'>

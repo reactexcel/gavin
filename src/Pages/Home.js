@@ -8,19 +8,20 @@ const Home = () => {
   return (
     <>
       <div
-        className='right p-2'
-        style={{ marginRight: '5%', marginBottom: '10%' }}
+        className='float-right d-flex justify-content-end p-2'
+        style={{ marginRight: '5%' }}
       >
         <ol class='breadcrumb'>
           <div style={{ marginRight: '25px' }}>
             <a
+              href='/'
               className='px-2  link'
               style={{ borderRight: '2px solid black' }}
             >
               HOME
             </a>
             <a
-              href='#'
+              href='/'
               className=' px-2 link '
               style={{ borderRight: '2px solid black' }}
             >
@@ -30,13 +31,14 @@ const Home = () => {
               <Login />
             </a>
           </div>
-          <button className='btn-success px-1 py-0 text-sm'> +SIGN UP</button>
+          <div className='d-flex flex-column'>
+            <button className='btn-success px-1 py-0 text-sm'> +SIGN UP</button>
+            <img
+              src='https://via.placeholder.com/100x100'
+              className='ml-4 border border-dark my-4'
+            />
+          </div>
         </ol>
-        <img
-          src='https://via.placeholder.com/100x100'
-          className='ml-4 border border-dark float-right'
-          style={{ marginLeft: '70%' }}
-        />
       </div>
 
       <Used />

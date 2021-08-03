@@ -1,5 +1,5 @@
 import { Modal } from 'bootstrap'
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 function Login () {
   const modal = useRef(null)
@@ -31,7 +31,7 @@ function Login () {
             <div
               class='d-flex'
               style={{ backgroundColor: '#FFC0CB', width: '40rem' }}
-             >
+            >
               <div class='col-md-4 text-center'>
                 <p className='text-light font-normal mt-4 '>
                   create a free account today
@@ -111,7 +111,6 @@ function Login () {
                   <button class='btn btn-success  border border-dark '>
                     +SIGNUP
                   </button>
-
                   <button class='btn btn-warning  border border-dark '>
                     CAPTCHA
                   </button>
@@ -125,4 +124,4 @@ function Login () {
   )
 }
 
-export default Login
+export default Login;
