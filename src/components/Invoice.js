@@ -4,9 +4,9 @@ export default function Invoce () {
   return (
     <div
       class='card  border border-dark h-100 mt-2 mx-2 rounded-0'
-      style={{ backgroundColor: 'red' }}
+      style={{ backgroundColor: '#ff4d4d' }}
      >
-      <li class='nav-item  mx-4'>
+      <div class='my-2  mx-4'>
         <div
           class=' card  border border-dark text-center'
           style={{ width: '5rem', height: '5rem' }}
@@ -14,7 +14,7 @@ export default function Invoce () {
           <h1 className='my-auto'>4</h1>
         </div>
         <h5 className='text-light'>Invoices 5</h5>
-      </li>
+      </div>
 
       <div className='mx-4'>
         <table class='table table-bordered border-dark bg-light'>

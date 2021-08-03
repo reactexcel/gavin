@@ -58,4 +58,4 @@ const Used = () => {
   )
 }
 
-export default Used
+export default Used;

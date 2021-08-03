@@ -27,7 +27,7 @@ const Home = () => {
             >
               SUPPORT
             </a>
-            <a aria-current='page ' className=' px-2 link'>
+            <a aria-current='page' className=' px-2 link'>
               <Login />
             </a>
           </div>
@@ -40,7 +40,6 @@ const Home = () => {
           </div>
         </ol>
       </div>
-
       <Used />
       <Service />
       <Footer />

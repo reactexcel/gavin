@@ -9,7 +9,6 @@ import Sidebar from '../components/sidebar'
 const Dashboard = () => {
   const [value, setValue] = useState('1')
 
-
   return (
     <>
       <AdminHeader />
@@ -18,7 +17,7 @@ const Dashboard = () => {
         <div className='w-100 d-flex flex-column'>
           <div
             class='card  border border-dark h-25 mx-2 rounded-0'
-            style={{ backgroundColor: 'red' }}
+            style={{ backgroundColor: '#ff4d4d' }}
           >
             <div className='container d-flex flex-row justify-content-start py-2 px-4'>
               <h2 className='text-light font-weight-bold  '>Dashboard</h2>
@@ -31,7 +30,9 @@ const Dashboard = () => {
                     onClick={() => setValue('1')}
                   >
                     <div
-                      class=' card  border border-dark '
+                      className={`card  border border-dark ${
+                        value === '1' ? 'bg-success' : 'bg-light'
+                      }`}
                       style={{ width: '5rem', height: '5rem' }}
                     ></div>
                     Service CSV
@@ -39,14 +40,14 @@ const Dashboard = () => {
                 </li>
                 <li class='nav-item '>
                   <a
-                  
                     className='nav-link active text-light text-center'
                     aria-current='page'
                     onClick={() => setValue('2')}
                   >
                     <div
-                    className={`card  border border-dark ${value=== 2 ? "bg-dark" : "bg-light"}`}
-        
+                      className={`card  border border-dark ${
+                        value === '2' ? 'bg-success' : 'bg-light'
+                      }`}
                       style={{ width: '5rem', height: '5rem' }}
                     ></div>
                     Reports
@@ -59,7 +60,9 @@ const Dashboard = () => {
                     onClick={() => setValue('3')}
                   >
                     <div
-                      class=' card  border border-dark '
+                      className={`card  border border-dark ${
+                        value === '3' ? 'bg-success' : 'bg-light'
+                      }`}
                       style={{ width: '5rem', height: '5rem' }}
                     ></div>
                     Invoices

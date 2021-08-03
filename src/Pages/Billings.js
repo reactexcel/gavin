@@ -1,7 +1,8 @@
-import React from 'react'
-import AdminHeader from '../components/AdminHeader'
-import Footer from '../components/Footer'
-import Sidebar from '../components/sidebar'
+import React from 'react';
+import AdminHeader from '../components/AdminHeader';
+import Footer from '../components/Footer';
+import Sidebar from '../components/sidebar';
+
 const Billings = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Billings = () => {
         <div className='w-100 d-flex flex-column'>
           <div
             class='card  border border-dark h-25 mx-2 rounded-0'
-            style={{ backgroundColor: 'red' }}
+            style={{ backgroundColor: '#ff4d4d' }}
           >
             <div className='container d-flex flex-row justify-content-start py-4 px-4'>
               <h2 className='text-light font-weight-bold '>Billing</h2>
@@ -25,7 +26,7 @@ const Billings = () => {
           {/* second box */}
           <div
             class='card  border border-dark h-100 mt-2 mx-2 rounded-0'
-            style={{ backgroundColor: 'red' }}
+            style={{ backgroundColor: '#ff4d4d' }}
           >
             <div class='card w-50 rounded-0 my-3 mx-3  '>
               <div class='card-body d-flex justify-content-between'>
