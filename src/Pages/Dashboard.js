@@ -22,7 +22,7 @@ const Dashboard = () => {
             <div className='container d-flex flex-row justify-content-start py-2 px-4'>
               <h2 className='text-light font-weight-bold  '>Dashboard</h2>
 
-              <ul class='nav justify-content-center  mx-4 mb-2' value={value}>
+              <ul class='nav  mx-4 mb-2' value={value}>
                 <li class='nav-item '>
                   <a
                     class='nav-link active text-light text-center'

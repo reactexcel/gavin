@@ -1,6 +1,12 @@
 import { Modal } from 'bootstrap'
 import { useEffect, useRef } from 'react'
-
+import {
+  FaFacebook,
+  FaLinkedin,
+  FaGooglePlusSquare,
+  FaUserPlus
+} from 'react-icons/fa'
+import { AiFillAndroid } from 'react-icons/ai'
 function Login () {
   const modal = useRef(null)
   const model = useRef(null)
@@ -47,19 +53,19 @@ function Login () {
                     type='button'
                     class='btnn btn-primary border border-dark '
                   >
-                    Login with facebook
+                    <FaFacebook /> Login with facebook
                   </button>
                   <button
                     type='button'
                     class='btnn btn-secondary  border border-dark '
                   >
-                    Login with Linkedln
+                    <FaLinkedin /> Login with Linkedln
                   </button>
                   <button
                     type='button'
                     class='btnn btn-danger  border border-dark '
                   >
-                    Login with Google
+                    <FaGooglePlusSquare />   Login with Google
                   </button>
 
                   <form control='' class='form-group'>
@@ -109,10 +115,10 @@ function Login () {
                 </div>
                 <div className='d-flex justify-content-between mx-4 mb-2'>
                   <button class='btn btn-success  border border-dark '>
-                    +SIGNUP
+                    <FaUserPlus /> SIGNUP
                   </button>
                   <button class='btn btn-warning  border border-dark '>
-                    CAPTCHA
+                    <AiFillAndroid /> CAPTCHA
                   </button>
                 </div>
               </div>

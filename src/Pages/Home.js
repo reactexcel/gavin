@@ -3,6 +3,7 @@ import Service from '../components/Services'
 import Used from '../components/UsedBy'
 import Footer from '../components/Footer'
 import Login from '../components/Login'
+import {FaUserPlus} from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
             </a>
           </div>
           <div className='d-flex flex-column'>
-            <button className='btn-success px-1 py-0 text-sm'> +SIGN UP</button>
+            <button className='btn-success px-1 py-0 text-sm'> <FaUserPlus/> SIGN UP</button>
             <img
               src='https://via.placeholder.com/100x100'
               className='ml-4 border border-dark my-4'
@@ -47,4 +48,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

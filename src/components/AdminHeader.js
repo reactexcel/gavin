@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaUserPlus} from 'react-icons/fa';
 
 export default function AdminHeader () {
   return (
@@ -22,7 +23,7 @@ export default function AdminHeader () {
             ACCOUNT
           </a>
         </div>
-        <button className='btn-success px-1 py-0 text-sm'> LOGOUT</button>
+        <button className='btn-success px-1 py-0 text-sm'><FaUserPlus/> LOGOUT</button>
       </ol>
     </div>
   )

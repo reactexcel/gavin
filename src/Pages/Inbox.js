@@ -27,7 +27,7 @@ const Inbox = () => {
               <li class='list-group-item'>Message Three</li>
               <li class='list-group-item'>Message Four</li>
               <li class='list-group-item'>Message Five</li>
-              <li class='list-group-item'>Mesage Six</li>
+              <li class='list-group-item'>Mesage  Six</li>
               <li class='list-group-item'>Message Seven</li>
               <li class='list-group-item'>Message Eight</li>
             </ul>
