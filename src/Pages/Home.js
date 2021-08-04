@@ -28,7 +28,7 @@ const Home = () => {
             >
               SUPPORT
             </a>
-            <a aria-current='page' className=' px-2 link'>
+            <a aria-current='page' className=' px-2 link' >
               <Login />
             </a>
           </div>
@@ -37,6 +37,7 @@ const Home = () => {
             <img
               src='https://via.placeholder.com/100x100'
               className='ml-4 border border-dark my-4'
+              alt=" "
             />
           </div>
         </ol>

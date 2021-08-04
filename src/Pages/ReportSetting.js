@@ -21,6 +21,7 @@ const ReportSetting = () => {
                 src='https://via.placeholder.com/100x100'
                 className=' border border-dark'
                 style={{ marginLeft: '7%' }}
+                alt=" "
               />
             </div>
           </div>

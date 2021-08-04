@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa'
 import { AiFillAndroid } from 'react-icons/ai'
 
-function Login () {
+function Signup () {
   const modal = useRef(null)
   const model = useRef(null)
 
@@ -132,4 +132,4 @@ function Login () {
   )
 }
 
-export default Login;
+export default Signup;

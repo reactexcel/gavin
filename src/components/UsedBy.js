@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Used = () => {
   return (
@@ -9,29 +9,30 @@ const Used = () => {
       >
         <div className='container mix'>
           <h4 className='text-light font-normal mt-4 '>Used By</h4>
-          <div class='d-flex flex-wrap  py-4'>
+         
+          <div class='d-flex flex-wrap  py-2 mb-4'>
             
-            <div class=' card   mx-4 py-4  my-2' style={{ width: '8rem' }}>
+            <div class=' card   mx-4 py-4  my-2' style={{ width: '10rem' }}>
               <div class='card-body  '></div>
             </div>
 
-            <div class=' card   mx-4 py-4   my-2' style={{ width: '8rem' }}>
+            <div class=' card   mx-4 py-4   my-2' style={{ width: '10rem' }}>
               <div class='card-body  '></div>
             </div>
 
-            <div class=' card   mx-4 py-4   my-2' style={{ width: '8rem' }}>
+            <div class=' card   mx-4 py-4   my-2' style={{ width: '10rem' }}>
               <div class='card-body  '></div>
             </div>
 
-            <div class=' card   mx-4 py-4  my-2 ' style={{ width: '8rem' }}>
+            <div class=' card   mx-4 py-4  my-2 ' style={{ width: '10rem' }}>
               <div class='card-body  '></div>
             </div>
 
-            <div class=' card   mx-4 py-4  my-2 ' style={{ width: '8rem' }}>
+            <div class=' card   mx-4 py-4  my-2 ' style={{ width: '10rem' }}>
               <div class='card-body  '></div>
             </div>
 
-            <div class=' card   mx-4 py-4   my-2' style={{ width: '8rem' }}>
+            <div class=' card   mx-4 py-4   my-2' style={{ width: '10rem' }}>
               <div class='card-body  '></div>
             </div>
           </div>

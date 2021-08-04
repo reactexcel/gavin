@@ -9,7 +9,7 @@ export default function AdminHeader () {
     >
       <ol class='breadcrumb'>
         <div style={{ marginRight: '25px' }}>
-          <a className='px-2  link' style={{ borderRight: '2px solid black' }}>
+          <a className='px-2  link' style={{ borderRight: '2px solid black' }} href="/">
             HOME
           </a>
           <a
@@ -19,7 +19,7 @@ export default function AdminHeader () {
           >
             SUPPORT
           </a>
-          <a aria-current='page ' className=' px-2 link'>
+          <a aria-current='page ' className=' px-2 link' href="/account">
             ACCOUNT
           </a>
         </div>

@@ -36,17 +36,11 @@ export default function Invoce () {
             </tr>
           </thead>
           <tbody>
-            {/*
-             */}
             <tr>
               <td> Invoice 1</td>
               <td> January</td>
+              <td>Jan Invoice link</td>
               <td>
-                {' '}
-                <a>Jan Invoice link</a>
-              </td>
-              <td>
-                {' '}
                 <div class='form-check'>
                   <input
                     class='form-check-input'
@@ -63,7 +57,6 @@ export default function Invoce () {
               <td> February </td>
               <td>Feb Invoice link</td>
               <td>
-                {' '}
                 <div class='form-check'>
                   <input
                     class='form-check-input'
@@ -113,7 +106,6 @@ export default function Invoce () {
               <td> May </td>
               <td>May Invoice link</td>
               <td>
-                {' '}
                 <div class='form-check'>
                   <input
                     class='form-check-input'

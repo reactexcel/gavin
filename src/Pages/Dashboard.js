@@ -24,7 +24,7 @@ const Dashboard = () => {
 
               <ul class='nav  mx-4 mb-2' value={value}>
                 <li class='nav-item '>
-                  <a
+                  <li
                     class='nav-link active text-light text-center'
                     aria-current='page'
                     onClick={() => setValue('1')}
@@ -36,10 +36,10 @@ const Dashboard = () => {
                       style={{ width: '5rem', height: '5rem' }}
                     ></div>
                     Service CSV
-                  </a>
+                  </li>
                 </li>
                 <li class='nav-item '>
-                  <a
+                  <li
                     className='nav-link active text-light text-center'
                     aria-current='page'
                     onClick={() => setValue('2')}
@@ -51,10 +51,10 @@ const Dashboard = () => {
                       style={{ width: '5rem', height: '5rem' }}
                     ></div>
                     Reports
-                  </a>
+                  </li>
                 </li>
                 <li class='nav-item '>
-                  <a
+                  <li
                     class='nav-link active text-light text-center'
                     aria-current='page'
                     onClick={() => setValue('3')}
@@ -66,7 +66,7 @@ const Dashboard = () => {
                       style={{ width: '5rem', height: '5rem' }}
                     ></div>
                     Invoices
-                  </a>
+                  </li>
                 </li>
               </ul>
             </div>
